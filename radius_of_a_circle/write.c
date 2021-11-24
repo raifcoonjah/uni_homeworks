@@ -11,13 +11,13 @@ int main()
   int radius;
   float pi_value = 3.14, area;
 
-  printf("Pleas enter Radius: ");
+  printf("Pleas enter Radius of circle: ");
   // %d is used to give the answer as integer.
   scanf("%d", &radius);
 
   if (radius <= 0)
   {
-    printf("Error, %d is a negative number! \n");
+    printf("Error, %d is a negative number! \n", radius);
   }
   else
   {
