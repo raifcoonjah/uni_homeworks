@@ -1,0 +1,5 @@
+/*
+Write a function that takes as parameter a value n and returns the square and cube of n.
+Use the function in a program that accepts as input the radius of a sphere and calculates
+and displays the surface area and volume of the sphere
+*/
