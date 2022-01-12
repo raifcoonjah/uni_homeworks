@@ -18,4 +18,7 @@ range 0 – 100.
 */
 
 
-// Can you please explain this one in the next class? Thanks :D
+// Questions that need answers: 
+
+// Are we suppose to use an array here? 
+
