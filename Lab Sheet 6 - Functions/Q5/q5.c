@@ -7,22 +7,22 @@ exactly 7 digits.
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
-int phone_num, sum = 0, mod;
+ int phone_num, sum = 0, mod;
 
+ printf("Enter phone number: ");
+ scanf("%d", &phone_num);
 
-printf("Enter phone number: ");
-scanf("%d", &phone_num);
+ while (phone_num > 0)
+ {
 
-while (phone_num > 0){
+  mod = phone_num % 10; 
+  sum = sum + mod;
+  phone_num = phone_num / 10;
+ }
 
-mod = phone_num % 10;
-sum = sum + mod;
-phone_num = phone_num / 10;
-}
-
-printf("The total sum: %d \n", sum);
-return 0;
-
+ printf("The total sum: %d \n", sum);
+ return 0;
 }

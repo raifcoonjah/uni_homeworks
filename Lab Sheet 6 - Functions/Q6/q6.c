@@ -10,21 +10,22 @@ calculates and returns his/her weekly wage.
 int main()
 {
 
- int usrh, totalwage;
+  int usrh, totalwage;
 
- printf("Enter hours worked this week: ");
- scanf("%d", &usrh);
+  printf("Enter hours worked this week: ");
+  scanf("%d", &usrh);
 
-while  (usrh < 40)
- {
-  totalwage = usrh * 30;
+  while (usrh < 40)
+  {
+    totalwage = usrh * 30;
 
-  printf("- Your wage for this week is: Rs %d - \n", totalwage);
+    printf("- Your wage for this week is: Rs %d - \n", totalwage);
     return 0;
- }
+  }
 
   totalwage = usrh * 50;
   printf("+ Your wage for this week is: Rs %d + \n", totalwage);
   printf(":: Good job! :D \n");
 
+  return 0;
 }

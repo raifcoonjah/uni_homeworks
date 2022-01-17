@@ -17,8 +17,16 @@ the corresponding grade. Display suitable messages if the marks entered do not l
 range 0 – 100.
 */
 
+/*
+Solution >=
 
-// Questions that need answers: 
 
-// Are we suppose to use an array here? 
+Simple if statements, as we don't really care about how much if statements
+we have. But we might have some performance issues.
+But who the fuck cares lmao!
 
+
+
+
+
+*/
