@@ -1,4 +1,4 @@
-// 4.	Write a program which accepts as input an array and displays the largest and bsmallest element in the array.
+// 4.	Write a program which accepts as input an array and displays the largest and smallest element in the array.
 #include <stdio.h>
 
 int main()
@@ -12,7 +12,7 @@ int main()
   for (i = 0; i < size; i++)
     scanf("%d", &a[i]);
 
-  bnum = a[0];
+  bnum = a[0]; // this is telling C that bnum is the first number inside the array
   for (i = 1; i < size; i++)
   {
     if (bnum < a[i])
@@ -22,7 +22,7 @@ int main()
   }
   printf(":: The largest element is: %d", bnum);
 
-  bsmall = a[0];
+  bsmall = a[0]; // this is telling C that bsmall is the first number inside the array
   for (i = 1; i < size; i++)
   {
     if (bsmall > a[i])
