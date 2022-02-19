@@ -1,7 +1,10 @@
 /*
-2.	Write a program that calculates the cost per square
-centimeter of a circular pizza, given its diameter and price.
+2. Write a program that calculates the cost per square entimeter of a circular pizza, given its diameter and price.
 */
+
+
+/* This C code is just asking the user for a simple input and a simple out. */
+
 
 #include <stdio.h>
 

@@ -11,23 +11,47 @@ e.g. 1, (student_ID[0]) scored 70 in Maths (marks_maths[0]) and 90 in Physics
 (marks_Physics[0])
 */
 
+
 #include <stdio.h>
 
 int main()
 {
- int studentID[100], mk_maths[100], mk_phy[100], StudentsNum, maths, physics, d, four0four;
+  int studentID[100], mk_maths[100], mk_phy[100], StudentsNum, maths, physics, d, four0four, studentid_Store;
 
- // [?] Asking user to input the number of students
- printf(":: Enter number of students: ");
- scanf("%d", &StudentsNum);
+  // [?] Asking user to input the number of students
+  printf(":: Enter number of students: ");
+  scanf("%d", &StudentsNum);
 
- // [?] Ask user to input for subject ** MATHS **
- printf(":: Enter marks for maths: ");
- for (maths = 0; maths < StudentsNum; maths++)
-  scanf("%d", mk_maths[maths]);
+  // [?] Ask user to input for subject ** MATHS **
+  for (maths = 0; maths < StudentsNum; maths++)
+  {
+    printf(":: Enter marks for maths: ");
+    scanf("%d", &mk_maths[maths]);
+  }
 
- // [?] Ask user to input for subject ** PHYSICS **
- printf(":: Enter number of physics: ");
- for (physics = 0; physics < StudentsNum; physics++)
-  scanf("%d", mk_phy[physics]);
+  // [?] Ask user to input for subject ** PHYSICS **
+  for (physics = 0; physics < StudentsNum; physics++)
+  {
+    printf(":: Enter number of physics: ");
+    scanf("%d", &mk_phy[physics]);
+  }
+
+  printf("Enter student ID: ");
+  scanf("%d", &studentID);
+
+  for (d = 0; d < StudentsNum; d++)
+  {
+
+    if (studentid_Store = studentID[d])
+    {
+      printf("Dear %d, you got: ", studentID, mk_maths[d]);
+      printf("Dear %d, you got: ", studentID, mk_phy[d]);
+      four0four = 1;
+    }
+  }
+  if (four0four = 0)
+  {
+    printf("Student ID wasn't found! Please try again.");
+    return 0;
+  }
 }
